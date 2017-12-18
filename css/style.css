@@ -1,0 +1,13 @@
+.add-section{
+    background: url("../Images/11.JPG");
+    /*background-color: #6c757d;*/
+    background-attachment:fixed ;
+    background-size: 100% 100%;
+}
+
+/*.sd{*/
+    /*!*background: url("../Images/11.JPG");*!*/
+    /*!*background-color: #6c757d;*!*/
+    /*background-attachment:fixed ;*/
+    /*background-size: 100% 100%;*/
+/*}*/

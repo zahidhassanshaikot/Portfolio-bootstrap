@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+<div class="row">
+    <div class="col-xl-10 col-lg-9 col-md-9 col-sm-9 col-8 " >
+
+        <div class="container" style="padding-top: 20px">
+            <h3 class="h3 text-dark">Md.Zahid Hasan Shaikat</h3>
+            <p class="h6">35, Shukrabad, Dhanmondi 32, Dhaka 1207<br/>
+                Phone: 01985986986<br/>
+                Email: Zahidhassanshaikot@gmail.com</p>
+        </div>
+    </div>
+    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-4 " >
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <img src="Images/11.jpg" class="img-thumbnail rounded-circle"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 " >
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark navbar bg-dark ">
+
+            <!--<a href="" class="navbar-brand">Logo</a>-->
+
+            <div class="container">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myMenu">
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="About.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="Gallery.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="" class="nav-link"data-toggle="modal" data-target="#myModalLogin"> Login </a></li>
+                        <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#myModalSingup"> Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 mr-auto " >
+        <ul class="list-inline mr-auto sticky-top">
+            <li><a href="#myPhotos"> My photos</a></li>
+            <li><a href="#myFriendsPhotos">My Friends photos</a> </li>
+        </ul>
+
+    </div>
+    <div class="col-xl-10 col-lg-10 col-md-9 col-sm-8  ">
+        <h3 class="bg-light" id="myPhotos">My Photos</h3>
+        <br/>
+        <div class="col-md-12">
+        <img src="Images/IMG_20170512_183621.jpg"class="img-thumbnail"  alt="pic" width="250" height="200" />
+        <img src="Images/IMG_0209_Fotord.jpg"class="img-thumbnail"  alt="pic" width="250" height="200" />
+        <img src="Images/IMG_0154_Fotor.jpg"class="img-thumbnail"  alt="pic" width="250" height="200" />
+        <img src="Images/IMG_20171019_160132_Fotor.jpg"class="img-thumbnail"  alt="pic" width="250" height="200" />
+        <img src="Images/Family/rsz_img_0567_fotor.jpg"class="img-thumbnail"  alt="pic" width="250" height="200" /><a href="#">See more</a>
+        </div>
+        <hr/>
+
+        <h3 class="bg-light" id="myFriendsPhotos">My Friends Photos</h3>
+        <br/>
+
+        <img src="Images/Friends/IMG20171019062147_Fotor.jpg"class="img-thumbnail"   alt="pic" width="250" height="200" />
+        <img src="Images/Friends/20171019_073741_Fotor.jpg"class="img-thumbnail"   alt="pic" width="250" height="200" />
+        <img src="Images/Friends/IMG20171018174837_Fotor.jpg"class="img-thumbnail"   alt="pic" width="250" height="200" />
+        <img src="Images/Friends/IMG_0711_Fotor.jpg" alt="pic"class="img-thumbnail"   width="250" height="200" />
+        <img src="Images/Friends/IMG_20171019_124708_Fotor.jpg"class="img-thumbnail"   alt="pic" width="250" height="200" />
+        <img src="Images/Friends/IMG_0705_Fotor002.jpg" alt="pic"class="img-thumbnail"   width="250" height="200" /><a href="#">See more</a>
+
+        <hr/>
+
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">&copy
+        Zahidhasanshaikat
+    </div>
+</div>
+</div>
+<div class="modal fade" id="myModalSingup">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Registration from</h3>
+                <button class="close" data-dismiss="modal">
+                    &Cross;
+                </button>
+
+            </div>
+            <div class="modal-body">
+                <form action="damo.html" method="post">
+
+                    <div class="form-group">
+                        <lable for="FirstName">First Name </lable>
+                        <input class="form-control" type="text" name="first_name" id="FirstName" placeholder="First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Last Name </lable>
+                        <input class="form-control" type="text" name="first_name" id="LastName">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Email </lable>
+                        <input class="form-control" type="email" name="email_address">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Password </lable>
+                        <input class="form-control" type="password" name="password">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Phone Number </lable>
+                        <input class="form-control" type="number" name="phone_number">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Date of Birth </lable>
+                        <input class="form-control" type="date" name="date_of_birth">
+                    </div>
+
+                    <div class="form-group">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Address </lable>
+                        <textarea class="form-control"  name="address" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>District Name </lable>
+                        <select class="form-control" name="district_name">
+                            <option value="jaypurhat">Joypurhat</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option>Dhaka</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Image </lable>
+                        <input multiple type="file" name="image" accept="image/*">
+                    </div>
+
+                    <div class="form-check">
+                        <lable class="form-check-label">
+                            <input type="checkbox" name="agree" class="form-check-input"> I agree with all terms and condition
+                        </lable>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class=" col-sm-5">
+                            <input class="btn btn-success btn-block" type="SUBMIT" name="btn">
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="btn btn-danger btn-block" type="reset" name="btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!--<h3>Some Content on footer </h3>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal fade" id="myModalLogin">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login Page</h3>
+                <button class="close" data-dismiss="modal">
+                    &Cross;
+                </button>
+
+            </div>
+            <div class="modal-body">
+                <form action="damo.html" method="post">
+
+
+                    <div class="form-group">
+                        <lable>Email </lable>
+                        <input class="form-control" type="email" name="email_address">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Password </lable>
+                        <input class="form-control" type="password" name="password">
+                    </div>
+
+
+                    <div class="form-group row">
+                        <div class=" col-sm-5">
+                            <input class="btn btn-success btn-block" type="SUBMIT" name="btn">
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="btn btn-danger btn-block" type="reset" name="btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!--<h3>Some Content on footer </h3>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/proper.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
